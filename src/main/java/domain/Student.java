@@ -16,7 +16,10 @@ public class Student extends BasicStudent {
     @Override
     public JsonObject toJsonObject() {
         JsonObject json = new JsonObject();
-
+        JsonObject json1 = new JsonObject();
+//        for (Tuple exam: exams){
+//            json1.add(new JsonPair(new JsonString(exam.getKey().toString()),new JsonNumber(exam.getValue())));
+//        }
         json.add(new JsonPair("name",new JsonString(name)));
         json.add(new JsonPair("surname",new JsonString(surname)));
         json.add(new JsonPair("year",new JsonNumber(year)));
