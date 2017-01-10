@@ -14,4 +14,9 @@ public class JsonNumber extends Json {
     public String toJson() {
         return number.toString();
     }
+
+    @Override
+    public String toString() {
+        return number.toString();
+    }
 }

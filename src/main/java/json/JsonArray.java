@@ -32,4 +32,9 @@ public class JsonArray extends Json {
         }
         return jsonStr.toString();
     }
+
+    @Override
+    public String toString() {
+        return jsons.toString();
+    }
 }

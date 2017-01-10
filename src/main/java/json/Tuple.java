@@ -1,5 +1,7 @@
 package json;
 
+import java.util.Arrays;
+
 /**
  * Created by Andrii_Rodionov on 1/3/2017.
  */
@@ -11,4 +13,14 @@ public class Tuple<K, V> {
         this.key = key;
         this.value = value;
     }
+
+    public K getKey() {
+        return key;
+    }
+
+    public V getValue() {
+        return value;
+    }
+
+
 }

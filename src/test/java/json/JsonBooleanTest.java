@@ -12,7 +12,7 @@ public class JsonBooleanTest {
     public void testToJsonTrue() {
         JsonBoolean jsonBoolean = new JsonBoolean(true);
         assertEquals("true", jsonBoolean.toJson());
-    }
+}
 
     @Test
     public void testToJsonFalse() {
